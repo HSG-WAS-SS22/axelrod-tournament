@@ -14,7 +14,7 @@ class Erik(Player):
     - Lunatic: [Tzafestas2000]_
     """
 
-    name = "Erik - Random"
+    name = "Erik - Winner"
     classifier = {
         "memory_depth": 0,   # Memory-one Four-Vector = (p, p, p, p)
         "stochastic": True,
