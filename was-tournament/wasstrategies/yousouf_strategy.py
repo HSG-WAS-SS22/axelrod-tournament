@@ -24,7 +24,7 @@ class Yousouf(Player):
     # These are various properties for the strategy
     name = 'Tit For Tat'
     classifier = {
-        'memory_depth': 1,  # Four-Vector = (1.,0.,1.,0.)
+        'memory_depth': 2,  # Four-Vector = (1.,0.,1.,0.)
         'stochastic': False,
         'inspects_source': False,
         'manipulates_source': False,
