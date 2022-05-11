@@ -9,8 +9,8 @@ pip install axelrod
 ```
 
 ## WAS Axelrod Tournament Rules
-Each player submits its strategy for the Prisoner's Dilemma. The tournament is a round robin run (one iteration) so that each player is paired with each other player. 
-Each player is also paired with its own twin and with RANDOM, a strategy player that cooperates and defects with equal probability. 
+Each player submits their strategy for the Prisoner's Dilemma. The tournament is a round robin run (one iteration) so that each player is paired with every other player. 
+Each player is also paired with its own twin and with RANDOM, a strategy player that cooperates or defects in each round with equal probability. 
 Each match between two players consists of 10 rounds.
 The player whose strategy accumulated the greatest score wins.
 
