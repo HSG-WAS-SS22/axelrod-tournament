@@ -2,6 +2,14 @@
 
 Main repository for the Axelrod Tournament of the Web-based Autonomous Systems course that uses the [Axelrod 4.12.0 Python library](https://pypi.org/project/Axelrod/).
 
+## Table of Contents
+-   [How to install Axelrod](#how-to-install-axelrod)
+-   [WAS Axelrod Tournament Rules](#was-axelrod-tournament-rules)
+-   [How to prepare for the WAS Axelrod Tournament](#how-to-prepare-for-the-was-axelrod-tournament)
+    1. [Run a simple tournament](#run-a-simple-tournament)
+    2. [Play as a human to explore different strategies](#play-as-a-human-to-explore-different-strategies)
+    3. [Implement and submit your own strategy](#implement-and-submit-your-own-strategy)
+    
 ## How to install Axelrod
 The library requires Python 3.6 or greater. Install with `pip`:
 ```
@@ -30,7 +38,12 @@ The tournament produces three files analysing the results:
 - was_results.png: visualizes tournament normalized scores
 - was_win_distributions.png: visualizes tournament win distributions
 
-Additionally, the program prints the [morality metrics](https://axelrod.readthedocs.io/en/stable/how-to/calculate_morality_metrics.html) calculated for each player of the tournament.
+Additionally, the program prints the [morality metrics](https://axelrod.readthedocs.io/en/stable/how-to/calculate_morality_metrics.html) calculated for each player of the tournament:
+- Cooperation Rate: The fraction of interactions in which the player cooperated.
+- Good-Partner Rate: The fraction of interactions in which the player cooperated at least as much as its opponent (excluding interactions between a player and its own clone).
+- Eigenjesus Rate: A metric that always favors cooperation, and gives more (positive) weight to cooperations with moral opponents than
+to cooperations with immoral opponents.
+- Eigenmoses Rate: A metric that favors cooperation with moral opponents, and defecting immoral oppontents. It gives a positive weight to cooperations with moral opponents, and a negative weight to cooperations with immoral opponents.
 
 ### Play as a human to explore different strategies
 Before implementing your strategy, you can run `python3 was-human-inclusive-match/was-human-inclusive-match.py` ([was-human-inclusive-match.py](/was-human-inclusive-match/was_human_inclusive_match.py)), and try out different startegies by 
