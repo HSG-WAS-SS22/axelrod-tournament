@@ -37,7 +37,7 @@ Before implementing your strategy, you can run `python3 was-human-inclusive-matc
 [playing as a human against a TitForTat player](https://axelrod.readthedocs.io/en/stable/tutorials/new_to_game_theory_and_or_python/human_interaction.html). 
 
 ### Implement and submit your own strategy
-Create a new branch, and [implement your strategy](https://axelrod.readthedocs.io/en/fix-documentation/tutorials/contributing/strategy/writing_the_new_strategy.html) in the `was-tournament.wasstrategies` package.
+Create a new branch, and [implement your strategy](https://axelrod.readthedocs.io/en/fix-documentation/tutorials/contributing/strategy/writing_the_new_strategy.html) in the `was-tournament.wasstrategies` package. (Also, see an [additional strategy example](https://github.com/Axelrod-Python/Axelrod/blob/75ef1f24187350292c43d244370c100c644748bc/docs/how-to/contributing/strategy/writing_the_new_strategy.rst) that considers the history of interactions.)
 
 Your module name should have the format  `{your_name}_strategy.py` and your new strategy class name should have the format `{Name}` (e.g., `Danai()`). See [danai_strategy.py](/was-tournament/wasstrategies/danai_strategy.py) as an example. 
 
