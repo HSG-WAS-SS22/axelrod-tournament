@@ -36,7 +36,7 @@ Run `python3 was-tournament/was_tournament.py` ([was_tournament.py](/was-tournam
 The tournament produces three files analysing the results:
 - [was_results.png](/was-tournament/was_results.png): visualizes tournament normalized scores
 - [was_win_distributions.png](/was-tournament/was_win_distributions.png): visualizes tournament win distributions
-- [was_payoff_matrix.png](/was-tournament/was_payoff_matrix.png) :visualizes the tournament payoff matrix
+- [was_payoff_matrix.png](/was-tournament/was_payoff_matrix.png): visualizes tournament payoff matrix
 - [was_tournament_analysis.csv](/was-tournament/was_tournament_analysis.csv): summarises tournament results
 
 Additionally, the program prints the [morality metrics](https://axelrod.readthedocs.io/en/stable/how-to/calculate_morality_metrics.html) calculated for each player of the tournament:
